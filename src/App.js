@@ -1,7 +1,9 @@
 import React from "react";
 import ButtonContent from "./components/button/ButtonContent";
 import DrawerContent from "./components/drawer/DrawerContent";
-import Icons from "./components/icons/Icons";
+import LoaderContent from "./components/loader/LoaderContent";
+import MessageContent from "./components/message/MessageContent";
+import ModalContent from "./components/modal/ModalContent";
 function App() {
   return (
     <>
@@ -11,7 +13,13 @@ function App() {
       <ButtonContent />
       <br />
       <hr />
-      <Icons />
+      <LoaderContent />
+      <br />
+      <hr />
+      <MessageContent />
+      <br />
+      <hr />
+      <ModalContent />
     </>
   );
 }
