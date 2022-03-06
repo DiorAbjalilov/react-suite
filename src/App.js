@@ -9,7 +9,6 @@ function App() {
     <>
       <DrawerContent />
       <br />
-      salom
       <hr />
       <ButtonContent />
       <br />
