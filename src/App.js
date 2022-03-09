@@ -4,6 +4,7 @@ import DrawerContent from "./components/drawer/DrawerContent";
 import LoaderContent from "./components/loader/LoaderContent";
 import MessageContent from "./components/message/MessageContent";
 import ModalContent from "./components/modal/ModalContent";
+import TooltipContent from "./components/tooltip/TooltipContent";
 function App() {
   return (
     <>
@@ -20,6 +21,9 @@ function App() {
       <br />
       <hr />
       <ModalContent />
+      <br />
+      <hr />
+      <TooltipContent />
     </>
   );
 }
