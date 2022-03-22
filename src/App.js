@@ -25,6 +25,7 @@ function App() {
       <ModalContent />
       <br />
       <hr />
+      <hr />
       <TooltipContent />
       <br />
       <hr />
